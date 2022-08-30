@@ -1,0 +1,9 @@
+#!/bin/bash
+i=10
+count=0
+
+while [ $count -le $i ]
+do 
+	echo $count 
+	let ++count
+done
